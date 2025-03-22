@@ -1,0 +1,88 @@
+header{
+    width: 100%;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+//ideia minha
+.fa-instagram{
+    margin-left: 30px;
+}
+
+
+i{
+    color: $white-normal;
+}
+
+.header-icons{
+    display: flex;
+    gap: 50px;
+}
+
+.header-icons a:hover{
+    i{
+        animation: translateY 0.5s infinite alternate;
+        color: $red-light;
+    }
+}
+ //keyframes de transição
+
+@keyframes translateY {
+    from{
+    transform: translateY(0) scale(1);
+    }
+    to{
+    transform: translateY(-8px) scale(1.1);
+    }
+}
+
+.header-button{
+    border: 1px solid $white-normal;
+    padding: 10px 25px;
+    border-radius: 4px;
+    color: $white-normal;
+    background-color: transparent;
+    transition: background-color 0.8s;
+    margin-right: 30px;
+}
+
+.header-button:hover{
+    border: 1px solid $red-light;
+    background-color: $red-light;    
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+//keyframes de mobele
+
+@media screen and (max-width: 768px){
+    .header-content{
+        flex-direction: column;
+        margin-top: 25px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo img {
+        width: 200px;
+        margin-top: 25px;
+    }
+    .header-button{
+        display: none;
+    }
+}
+
+
+
+
+
+
