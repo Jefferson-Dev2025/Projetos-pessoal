@@ -1,0 +1,107 @@
+@media screen and (max-width: 915px)
+{
+.about, .service
+{
+    flex-direction: column;
+    margin: 0 auto;
+}
+.banner-2, .sobre-1, .sobre-2, .card-1, .card-2, .card-3, {
+    width: 100%;
+    margin: 0 auto;
+}
+.logo
+{
+    border-bottom: 1px solid white;
+}
+header
+{
+    flex-direction: column;
+}
+.logo
+{
+    z-index: 2;
+}
+main
+{
+    top: 140px;
+}
+.content
+{
+    flex-direction: column;
+    height: 800px;
+}
+#map
+{
+    height: 300px;
+    margin: 0 auto;
+} 
+.banner-1
+{
+    width: 95%;
+    margin: 0 auto;
+    position: absolute;
+    background-color: #ff00ff90;
+}
+.carousel img
+{
+    width: calc(100% / 2);
+}
+.dogCat
+{
+    margin-bottom:50px;
+}
+.about
+{
+    height: calc(100% * 2);
+    flex-direction:column-reverse;
+}
+
+.dogCat
+{
+    margin-bottom: 50px;
+}
+title
+{
+    height: 400px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 1000Px)
+{
+    .footer
+    {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 768Px)
+{
+header
+{
+    width: 100%;
+}
+#video
+{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel img
+{
+    width:100%;
+}
+.title
+{
+    height: 600px;
+}
+.dogCat
+{
+    margin-top: 50px;
+}
+
+footer
+{
+        height: auto;
+}
+}

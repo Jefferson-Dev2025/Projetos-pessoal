@@ -1,0 +1,91 @@
+.footer{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    background-color: aqua; 
+    width: 100%;
+    height: 150px;
+    border-bottom: 8px solid aqua;
+    top: 70px;
+}
+.logotipo img
+{
+    width: 250px;
+    height: 100px;
+}
+.logotipo
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.contatos
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+}
+.redes
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+#barra
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+    border-top: 0.5px solid rgb(24, 197, 197);
+    top: 70px;
+}
+
+.redes {
+    display: flex;
+    width: 400px;
+}
+
+.fab
+{
+    padding: 15px;
+}
+
+.redes a {
+    color: blue;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.redes a:hover {
+    color: red;
+    transform: all 0.3s ease;
+}
+
+#zapzap
+{
+    bottom: 80px;
+    right: 60px;
+    background-color: rgba(0, 128, 0, 0.5);
+    position: fixed;
+    border-radius: 50%;
+    color: green;
+    z-index: 9;
+    margin-bottom: -50px;
+}
+#zapzap:hover
+{
+    background-color: lime;
+}

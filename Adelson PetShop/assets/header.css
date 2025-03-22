@@ -1,0 +1,142 @@
+header
+{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    height: auto;
+    width: 100vw;
+    z-index: 3;
+}
+.logo
+{
+    /* flex-grow: 1; */
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: aqua;
+}
+nav
+{
+    flex-grow: 2;
+    height: 70px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: center;
+}
+.navigation ul
+{
+    position: relative;
+    display: flex;
+    /* width: 350px; */
+}
+
+.navigation ul li
+{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.navigation ul li a
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation ul li a .icon
+{
+    position: relative;
+    display: block;
+    line-height: 80px;
+    color: black;
+    font-size: 1.5rem;
+    opacity: 0,75;
+    transition: 0.5s;
+}
+
+.navigation ul li.active a .icon
+{
+    color:black;
+    transform: translateY(-10px);
+    opacity: 1;
+}
+
+.indicator
+{
+    position:absolute;
+    top: -10px;
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 7px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.indicator::before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    left: -26px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 4px -6px 0 4px white;
+} 
+
+.indicator::after
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    right: -26px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    box-shadow: -4px -6px 0 4px white;
+}
+
+.indicator span
+{
+    position: absolute;
+    left: -2px;
+    width: 60px;
+    height: 60px;
+    border: 4px solid aqua;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transform: scale(0.85);
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator
+{
+    transform: translateX(calc(70px * 1));
+}
+.navigation ul li:nth-child(3).active ~ .indicator
+{
+    transform: translateX(calc(70px * 2));
+}
+.navigation ul li:nth-child(4).active ~ .indicator
+{
+    transform: translateX(calc(70px * 3));
+}
+.navigation ul li:nth-child(5).active ~ .indicator
+{
+    transform: translateX(calc(70px * 4));
+}
