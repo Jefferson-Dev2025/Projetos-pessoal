@@ -54,6 +54,11 @@ main
     width: 390px;
     color: white;
 }
+span>p>a
+{
+    text-decoration: none;
+    color: white;
+}
 span>p
 {
     display: flex;

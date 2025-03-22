@@ -2,7 +2,7 @@ const carousel = document.querySelector(".carousel");
 const prevBtn = document.querySelector(".wrapper i:first-child");
 const nextBtn = document.querySelector(".wrapper i:last-child");
 
-const scrollAmount = carousel.clientWidth / 3; // Move o equivalente a uma imagem
+const scrollAmount = carousel.clientWidth / 2; // Move o equivalente a uma imagem
 
 const updateButtons = () => {
     prevBtn.style.display = carousel.scrollLeft === 0 ? "none" : "block";

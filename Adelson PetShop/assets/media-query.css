@@ -77,8 +77,8 @@ title
 }
 @media screen and (max-width: 768Px)
 {
-header
-{
+    header
+    {
     width: 100%;
 }
 #video
@@ -102,6 +102,18 @@ header
 
 footer
 {
-        height: auto;
+    height: auto;
+}
+@media screen and (max-width: 768Px)
+{
+    .fab
+    {
+        font-size: x-small;
+    }
+    .logotipo img
+{
+    width: 250px;
+    height: 100px;
+}
 }
 }
