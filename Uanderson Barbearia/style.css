@@ -16,8 +16,20 @@ header {
 }
 
 .fa-instagram {
-  margin-left: 30px;
+  margin-left: 50px;
 }
+#insta:hover{
+  color:#d34040;
+}
+#face:hover{
+  color: #404fd3;
+}
+#whats:hover{
+  color: white;
+  background-color: #51d340;
+  border-radius: 50%;
+}
+
 
 i {
   color: #fff;
@@ -33,23 +45,21 @@ i {
   position: absolute;
   width: 50px;
   height: 200px;
-  background-color: #d34040;
-  top: 100px;
+  top: 120px;
   left: 30px;
 }
-.simbolo2
+/* .simbolo2
 {
   display: flex;
   position: absolute;
   width: 50px;
   height: 200px;
-  background-color: #2be01a;
-  top: 100px;
+  top: 130px;
   right: 30px;
-}
+} */
 .header-icons a:hover i {
   animation: translateY 0.5s infinite alternate;
-  color: #d34040;
+  /* color: #d34040; */
 }
 
 @keyframes translateY {
@@ -134,6 +144,7 @@ i {
   max-width: 940px;
 }
 .hero p {
+  font-size: 1.2rem;
   text-align: center;
   margin: 22px 0;
 }

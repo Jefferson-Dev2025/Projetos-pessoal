@@ -1,14 +1,14 @@
 header{
     width: 100%;
+    margin: 0 auto;
 }
 
 .header-content{
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content:center;
 }
 
-//ideia minha
 .fa-instagram{
     margin-left: 30px;
 }
@@ -26,7 +26,7 @@ i{
 .header-icons a:hover{
     i{
         animation: translateY 0.5s infinite alternate;
-        color: $red-light;
+        // color: $red-light;
     }
 }
  //keyframes de transição
