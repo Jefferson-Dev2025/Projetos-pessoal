@@ -4,7 +4,7 @@
   box-sizing: border-box;
   outline: 0;
 }
-
+ 
 header {
   width: 100%;
 }
@@ -385,3 +385,14 @@ a {
   cursor: pointer;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 557px) {
+  .simbolo{
+    display: none;
+  }
+  body{
+    body{
+      width: 360px;
+    }
+  }
+}
