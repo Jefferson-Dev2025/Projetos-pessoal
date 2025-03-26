@@ -37,7 +37,7 @@ main
 } 
 .banner-1
 {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     position: absolute;
     background-color: #ff00ff90;
@@ -75,7 +75,7 @@ title
         height: 250px;
     }
 }
-@media screen and (max-width: 768Px)
+@media screen and (max-width: 768px)
 {
     header
     {
@@ -111,7 +111,7 @@ footer
     }
     .logotipo img
 {
-    width: 250px;
+    width: 200px;
     height: 100px;
 }
 }
@@ -120,6 +120,12 @@ footer
 /* DISPLAY PARA CELULAR */
 @media screen and (max-width: 360Px)
 {
-
+    .footer
+    {
+       overflow: hidden;
+       flex-direction: column;
+       width: 350px;
+       height: 300px;
+    }
 
 }
