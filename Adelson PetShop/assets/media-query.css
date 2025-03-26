@@ -104,8 +104,7 @@ footer
 {
     height: auto;
 }
-@media screen and (max-width: 768Px)
-{
+
     .fab
     {
         font-size: x-small;
@@ -116,4 +115,11 @@ footer
     height: 100px;
 }
 }
+
+
+/* DISPLAY PARA CELULAR */
+@media screen and (max-width: 360Px)
+{
+
+
 }
