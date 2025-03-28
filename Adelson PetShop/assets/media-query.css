@@ -46,20 +46,16 @@ main
 {
     width: calc(100% / 2);
 }
-.dogCat
+/* .dogCat
 {
     margin-bottom:50px;
-}
+} */
 .about
 {
     height: calc(100% * 2);
     flex-direction:column-reverse;
 }
 
-.dogCat
-{
-    margin-bottom: 50px;
-}
 title
 {
     height: 400px;
@@ -97,7 +93,8 @@ title
 }
 .dogCat
 {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    width: 100%;
 }
 
 footer
