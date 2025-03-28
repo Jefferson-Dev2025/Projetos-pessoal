@@ -48,7 +48,7 @@ main
 }
 .dogCat
 {
-    margin-bottom:50px;
+    margin-bottom:10px;
 }
 .about
 {
@@ -56,10 +56,6 @@ main
     flex-direction:column-reverse;
 }
 
-.dogCat
-{
-    margin-bottom: 50px;
-}
 title
 {
     height: 400px;
@@ -98,13 +94,15 @@ title
 .dogCat
 {
     margin-top: 50px;
+    width: 300px;
+    height: 200px;
 }
 
 footer
 {
     height: auto;
 }
-@media screen and (max-width: 768Px)
+@media screen and (max-width: 568Px)
 {
     .fab
     {
@@ -115,5 +113,13 @@ footer
     width: 250px;
     height: 100px;
 }
+    .sobre-2
+    {
+        width: 100%;
+    }
+    .dogCat
+    {
+        width: 100%;
+    }
 }
 }

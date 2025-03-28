@@ -118,25 +118,31 @@ span>p>ion-icon {
 .sobre-1
 {
     width: 35vw;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.dogCat img
+{
+    width: 100%;
 }
 .dogCat{
     position: relative;
     display: flex;
     align-items: end;
     justify-content: end;
-    width: 280px;
-    height: 300px;
-    background-image: url(assets/imagens/about.png);
+    width: 300px;
+    height: 400px;
+    /* background-image: url(assets/imagens/about2.png); */
+    object-fit: cover;
     background-size: cover;
     background-position:center;
     border-radius: 5%;
-    top: -24px;
+    top: -25px;
 }
 
-.shitzu{
+/* .shitzu{
     position: relative;
     top: 30px;
     right: 30%;
@@ -146,7 +152,7 @@ span>p>ion-icon {
     border:3px  solid fuchsia;
     width: 100px;
     height: 100px;
-}
+} */
 .sobre-2
 {
     display: flex;
@@ -154,7 +160,7 @@ span>p>ion-icon {
     align-items: center;
     color: rgb(24, 23, 23);
     width: 65vw;
-    height: 350px;
+    height: 400px;
 }
 .funcionamento{
     display: flex;
@@ -182,9 +188,9 @@ span>p>ion-icon {
     justify-content: center;
     align-items: center;
     background-color: #fffffe;
-    width: 90%;
+    width: 500px;
     height: 300px;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     border-radius: 15px;
     padding: 5px;
 }
