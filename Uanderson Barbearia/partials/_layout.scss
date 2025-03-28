@@ -1,5 +1,5 @@
 .container{
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0;
 }
@@ -28,7 +28,7 @@
 
 .hero{
     color: $white-normal;
-    min-width: 80vh;
+    min-width: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -37,10 +37,10 @@
     padding: 15px;
 
     h1{
-        font-size: 40px;
+        // font-size: 40px;
         text-align: center;
-        line-height: 150%;
-        max-width: 940px;
+        // line-height: 150%;
+        max-width: 90%;
     }
 
     p{
@@ -88,10 +88,6 @@
     .hero{
         min-height: 60vh;
     }
-
-    h1{
-        font-size: 22px;
-    }
 }
 
 .about{
@@ -108,7 +104,7 @@
     // padding: 34px 14px 0px 14px;
     
     img{
-        max-width: 570px;
+        max-width: 100%;
     }
 }
 
@@ -118,11 +114,11 @@
 
 .about-descriptionk{
     h2{
-        font-size: 22px;
+        // font-size: 22px;
         margin-bottom: 24px;
     }
     p{
-        margin-bottom: 14px;
+        // margin-bottom: 14px;
         line-height: 150%;
     }
 }
@@ -156,7 +152,7 @@
     line-height: 15px;
     margin-bottom: 14px;
     text-align: center;
-    max-width: 780px;
+    max-width: 100%;
     padding: 15px 0;
     
 }
