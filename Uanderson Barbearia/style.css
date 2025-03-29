@@ -231,7 +231,7 @@ i {
   }
 }
 .services {
-  background-color: #fff;
+  background-color: red;
   color: #532224;
   display: flex;
   flex-direction: column;
