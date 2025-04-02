@@ -19,7 +19,7 @@ header {
   margin-left: 50px;
 }
 #insta:hover{
-  color:#d34040;
+  color:red;
 }
 #face:hover{
   color: #404fd3;
@@ -45,18 +45,18 @@ i {
   position: absolute;
   width: 50px;
   height: 200px;
-  top: 120px;
-  left: 30px;
+  top: 450px;
+  left: 10px;
 }
-/* .simbolo2
+.simbolo2
 {
   display: flex;
   position: absolute;
   width: 50px;
   height: 200px;
-  top: 130px;
-  right: 30px;
-} */
+  top: 450px;
+  right: 10px;
+}
 .header-icons a:hover i {
   animation: translateY 0.5s infinite alternate;
   /* color: #d34040; */
@@ -124,13 +124,13 @@ i {
   background-size:contain;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), rgba(6, 18, 30, 0.6)), url("assets/Bg.jpg");
+  background-image: url("assets/Bg.jpg");
   opacity: 0.9;
 }
 
 .hero {
   color: #fff;
-  min-width: 80vh;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,7 +231,7 @@ i {
   }
 }
 .services {
-  background-color: yellow;
+  background-color: white;
   color: #532224;
   display: flex;
   flex-direction: column;
@@ -384,4 +384,19 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
+
+
+@media screen and (max-width: 560px)
+{
+.hero {
+  min-width: 100%;
+}
+.hero h1 {
+  font-size: 20px;
+}
+.bg-home::before
+{
+  background-image: url("assets/Folder.jpg");
+}
+}

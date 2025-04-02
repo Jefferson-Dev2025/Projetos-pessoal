@@ -4,16 +4,16 @@ header
     position: fixed;
     background-color: white;
     height: auto;
-    width: 100vw;
+    width: 100% !important;
     z-index: 3;
+
 }
 .logo
 {
-    /* flex-grow: 1; */
     display: flex;
     justify-content: center;
     height: 70px;
-    width: 100%;
+    width: 100% !important;
     background-color: aqua;
 }
 nav
@@ -28,12 +28,12 @@ nav
 {
     display: flex;
     justify-content: center;
+    width: 100% !important;
 }
 .navigation ul
 {
     position: relative;
     display: flex;
-    /* width: 350px; */
 }
 
 .navigation ul li
@@ -51,7 +51,7 @@ nav
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100% !important;
 }
 
 .navigation ul li a .icon
