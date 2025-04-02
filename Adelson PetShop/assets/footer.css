@@ -82,6 +82,10 @@ footer
         flex-direction: column;
         grid-template-columns: none;
     }
+    .barra
+    {
+        font-size: x-small;
+    }
 }
 
 /* ---------------------------*/
